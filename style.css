@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*navbar*/
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 4%;
+
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+.nav-brand {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(253, 253, 253);
+}
+
+.nav-navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-navbar ul li {
+    margin-left: 15px;
+    font-weight: bolder;
+    font-size: 0.9em;
+}
+
+/*hero*/
+.hero {
+    background-image: url(./images/hero_image.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-top: -55px;
+    color: white;
+}
+
+.hero-item {
+    width: 80%;
+    margin: auto;
+}
+
+.hero h1,
+p,
+small {
+    width: 100%;
+}
+
+.hero h1 {
+    font-size: 6em;
+    font-weight: 100;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.hero p {
+    font-size: 2em;
+    text-align: center;
+}
+
+.hero .hero-tag {
+    font-size: 1em;
+    text-align: center;
+}
+
+/*music setion*/
+.music {
+    background: linear-gradient(to top, white 50%, #290058 50%);
+    color: white;
+}
+
+.music-item {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.music-item h1 {
+    text-align: center;
+    padding: 5% 5%;
+}
+
+.music-item p {
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.music-item button {
+    padding: 1%;
+    background: rgb(235, 75, 75);
+    color: white;
+    width: 30%;
+    border: 1px solid red;
+    margin-bottom: 3%;
+}
+
+/*collection*/
+.collection {
+    display: flex;
+    flex-direction: column;
+    padding: 1% 5%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.collection h1 {
+    font-weight: 100;
+    font-size: 2em;
+}
+
+.collection p {
+    font-size: 0.9em;
+    margin-top: 4%;
+}
+
+.collection button {
+    padding: 0.6% 1%;
+    margin-top: 3%;
+    background: #270082;
+    color: white;
+    border: 1px solid #270082;
+    transition: 0.3s ease-in-out;
+}
+
+.collection button:hover {
+    background: #3502ac;
+    cursor: pointer;
+
+}
+
+.collection img {
+    margin-top: 3%;
+}
